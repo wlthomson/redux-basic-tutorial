@@ -26,12 +26,3 @@ export const setVisibilityFilter = filter => ({
   type: SET_VISIBILITY_FILTER,
   filter
 });
-
-/*
- * Bound action creators.
- */
-
-export const boundAddTodo = text => dispatch(addTodo(text));
-export const boundToggleTodo = index => dispatch(toggleTodo(index));
-export const boundSetVisibilityFilter = filter =>
-  dispatch(setVisibilityFilter(filter));

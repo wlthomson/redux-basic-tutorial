@@ -4,14 +4,25 @@
   "main": "index.js",
   "author": "Will Thomson <will.tho@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
     "@babel/node": "^7.6.1",
     "@babel/preset-env": "^7.6.0",
-    "prettier": "^1.18.2"
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.18.2",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
   },
   "dependencies": {
+    "react": "^16.9.0",
+    "react-redux": "^7.1.1",
     "redux": "^4.0.4"
   }
 }
